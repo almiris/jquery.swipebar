@@ -7,15 +7,15 @@
 (function($) {
   $.fn.swipeBar = function(options) {
     var settings = $.extend({
-      "in" : "<span class='dot'/>",
-      "an" : "<span class='dot dot_a'/>",
+      "idn" : "<span class='dot'/>",
+      "adn" : "<span class='dot dot_a'/>",
       "ad" : 0,
       "td" : 1
     }, options);
     return this.each(function() {
       var $this = $(this);
-      for (i = 0; i < settings.td; i++) {
-        $(i == settings.ad ? settings.an : settings.in).appendTo($this);
+      for (var i = 0; i < settings.td; i++) {
+        $(i == settings.ad ? settings.adn : settings.idn).appendTo($this);
       }        
     });
   }
