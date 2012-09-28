@@ -1,4 +1,4 @@
-jquery.swipebar
+jquery.swipeBar
 ===============
 
-a simple jquery plugin to turn a dom element into a swipe bar
+A simple jquery plugin to turn a dom element into a swipe bar
